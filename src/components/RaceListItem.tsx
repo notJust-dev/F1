@@ -15,7 +15,7 @@ export default function RaceListItem({
   round: number;
 }) {
   return (
-    <Link href={'/race'} asChild>
+    <Link href={`/race/${item.id}`} asChild>
       <Pressable style={styles.itemContainer}>
         <View style={styles.datesContainer}>
           <Text style={styles.date}>
