@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View} from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { Entypo } from '@expo/vector-icons';
 import { Colors } from '../Constants/Colors';
 
@@ -50,7 +50,9 @@ const styles = StyleSheet.create({
     borderColor: 'gainsboro',
     alignItems: 'center',
   },
-  date: {},
+  date: {
+    fontFamily: 'F1-Regular',
+  },
   month: {
     backgroundColor: 'gainsboro',
     paddingVertical: 3,
@@ -62,13 +64,17 @@ const styles = StyleSheet.create({
     color: 'dimgray',
     fontWeight: 'bold',
     marginTop: 5,
+
+    fontFamily: 'F1-Bold',
   },
   round: {
     color: Colors.primary,
+    fontFamily: 'F1-Regular',
   },
   country: {
     fontSize: 20,
-    fontWeight: 'bold',
+    fontFamily: 'F1-Bold',
+    marginVertical: 7,
   },
   description: {
     color: 'dimgray',
