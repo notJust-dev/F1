@@ -64,7 +64,7 @@ type ResponseEntry {
 }
 
 type Query {
-  races(season: String, type: String): Race
+  races(season: String, type: String, id: Int): Race
     @rest(
       endpoint: "https://v1.formula-1.api-sports.io/races"
       headers: [
