@@ -4,7 +4,7 @@ import RaceListItem from '../components/RaceListItem';
 import dayjs from 'dayjs';
 
 import racesResponse from '../../assets/data/races.json';
-import { Link } from 'expo-router';
+import { Link, Stack } from 'expo-router';
 const races = racesResponse.data.races.response;
 
 export default function HomeScreen() {
