@@ -3,6 +3,7 @@
     "name": "F1",
     "slug": "F1",
     "version": "1.0.0",
+    "scheme": "notJustF1", // notJustF1://races/123
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
