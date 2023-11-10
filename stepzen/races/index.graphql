@@ -1,0 +1,75 @@
+type Circuit {
+  id: Int
+  image: String
+  name: String
+}
+
+type Competition {
+  id: Int
+  location: Location
+  name: String
+}
+
+type Driver {
+  id: Int
+}
+
+type FastestLap {
+  driver: Driver
+  time: String
+}
+
+type Laps {
+  """
+  Field "current" is defined as JSON since its value was always 'null'
+  """
+  current: JSON
+  total: Int
+}
+
+type Location {
+  city: String
+  country: String
+}
+
+type Parameters {
+  season: Int
+  type: String
+}
+
+type Race {
+  errors: [JSON]
+  get: String
+  parameters: Parameters
+  response: [ResponseEntry]
+  results: Int
+}
+
+type ResponseEntry {
+  circuit: Circuit
+  competition: Competition
+  date: DateTime
+  distance: String
+  fastest_lap: FastestLap
+  id: Int
+  laps: Laps
+  season: Int
+  status: String
+  timezone: String
+  type: String
+  """
+  Field "weather" is defined as JSON since its value was always 'null'
+  """
+  weather: JSON
+}
+
+type Query {
+  races(season: String, type: String): Race
+    @rest(
+      endpoint: "https://v1.formula-1.api-sports.io/races"
+      headers: [
+        { name: "x-rapidapi-host", value: "v1.formula-1.api-sports.io" }
+        { name: "x-rapidapi-key", value: "3bf425b2941c21b8089297fb3df21e12" }
+      ]
+    )
+}

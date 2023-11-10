@@ -1,0 +1,677 @@
+{
+  "data": {
+    "races": {
+      "errors": [],
+      "response": [
+        {
+          "date": "2023-03-05T15:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1671,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 2,
+            "name": "Bahrain Grand Prix",
+            "location": {
+              "city": "Sakhir",
+              "country": "Bahrain"
+            }
+          },
+          "circuit": {
+            "id": 2,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/2.png",
+            "name": "Bahrain International Circuit"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 83
+            },
+            "time": "1:33.996"
+          }
+        },
+        {
+          "date": "2023-03-19T17:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1676,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 32,
+            "name": "Saudi Arabia Grand Prix",
+            "location": {
+              "city": "Djeddah",
+              "country": "Saudi Arabia "
+            }
+          },
+          "circuit": {
+            "id": 29,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/29.png",
+            "name": "Jeddah Corniche Circuit"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 25
+            },
+            "time": "1:31.906"
+          }
+        },
+        {
+          "date": "2023-04-02T05:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1681,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 1,
+            "name": "Australia Grand Prix",
+            "location": {
+              "city": "Melbourne",
+              "country": "Australia"
+            }
+          },
+          "circuit": {
+            "id": 1,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/1.png",
+            "name": "Albert Park Circuit"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 10
+            },
+            "time": "1:20.235"
+          }
+        },
+        {
+          "date": "2023-04-30T11:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1686,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 8,
+            "name": "Azerbaijan Grand Prix",
+            "location": {
+              "city": "Bakou",
+              "country": "Azerbaijan"
+            }
+          },
+          "circuit": {
+            "id": 8,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/8.png",
+            "name": "Baku City Circuit"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 51
+            },
+            "time": "1:43.370"
+          }
+        },
+        {
+          "date": "2023-05-07T19:30:00Z",
+          "distance": "307.6 Kms",
+          "id": 1691,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 34,
+            "name": "Miami Grand Prix",
+            "location": {
+              "city": "Miami",
+              "country": "USA"
+            }
+          },
+          "circuit": {
+            "id": 31,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/31.png",
+            "name": "Miami International Autodrome"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 25
+            },
+            "time": "1:29.708"
+          }
+        },
+        {
+          "date": "2023-05-21T13:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1696,
+          "season": 2023,
+          "status": "Cancelled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 29,
+            "name": "Emilia Romagna Grand Prix",
+            "location": {
+              "city": "Imola",
+              "country": "Italy"
+            }
+          },
+          "circuit": {
+            "id": 27,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/27.png",
+            "name": "Autodromo Enzo e Dino Ferrari"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          }
+        },
+        {
+          "date": "2023-05-28T13:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1701,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 7,
+            "name": "Monaco Grand Prix",
+            "location": {
+              "city": "Monte-Carlo",
+              "country": "Monaco"
+            }
+          },
+          "circuit": {
+            "id": 7,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/7.png",
+            "name": "Circuit de Monaco"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 20
+            },
+            "time": "1:15.650"
+          }
+        },
+        {
+          "date": "2023-06-04T13:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1706,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 6,
+            "name": "Spain Grand Prix",
+            "location": {
+              "city": " Montmeló",
+              "country": "Spain"
+            }
+          },
+          "circuit": {
+            "id": 6,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/6.png",
+            "name": "Circuit de Barcelona-Catalunya"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 25
+            },
+            "time": "1:16.330"
+          }
+        },
+        {
+          "date": "2023-06-18T18:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1711,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 9,
+            "name": "Canada Grand Prix",
+            "location": {
+              "city": "Montréal",
+              "country": "Canada"
+            }
+          },
+          "circuit": {
+            "id": 9,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/9.png",
+            "name": "Circuit Gilles-Villeneuve"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 10
+            },
+            "time": "1:14.481"
+          }
+        },
+        {
+          "date": "2023-07-02T13:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1716,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 11,
+            "name": "Austria Grand Prix",
+            "location": {
+              "city": "Spielberg",
+              "country": "Austria"
+            }
+          },
+          "circuit": {
+            "id": 11,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/11.png",
+            "name": "Red Bull Ring"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 25
+            },
+            "time": "1:07.012"
+          }
+        },
+        {
+          "date": "2023-07-09T14:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1721,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 12,
+            "name": "Great Britain Grand Prix",
+            "location": {
+              "city": "Silverstone Northamptonshire",
+              "country": "Great Britain"
+            }
+          },
+          "circuit": {
+            "id": 12,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/12.png",
+            "name": "Silverstone Circuit"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 25
+            },
+            "time": "1:30.275"
+          }
+        },
+        {
+          "date": "2023-07-23T13:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1726,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 14,
+            "name": "Hungary Grand Prix",
+            "location": {
+              "city": "Mogyoród",
+              "country": "Hungary"
+            }
+          },
+          "circuit": {
+            "id": 14,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/14.png",
+            "name": "Hungaroring"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 25
+            },
+            "time": "1:20.504"
+          }
+        },
+        {
+          "date": "2023-07-30T13:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1731,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 15,
+            "name": "Belgium Grand Prix",
+            "location": {
+              "city": "Francorchamps",
+              "country": "Belgium"
+            }
+          },
+          "circuit": {
+            "id": 15,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/15.png",
+            "name": "Circuit de Spa-Francorchamps"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 20
+            },
+            "time": "1:47.305"
+          }
+        },
+        {
+          "date": "2023-08-27T13:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1736,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 5,
+            "name": "Netherlands Grand Prix",
+            "location": {
+              "city": "Zandvoort",
+              "country": "Netherlands"
+            }
+          },
+          "circuit": {
+            "id": 5,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/5.png",
+            "name": "Circuit Zandvoort"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 4
+            },
+            "time": "1:13.837"
+          }
+        },
+        {
+          "date": "2023-09-03T13:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1741,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 16,
+            "name": "Italy Grand Prix",
+            "location": {
+              "city": "Monza",
+              "country": "Italy"
+            }
+          },
+          "circuit": {
+            "id": 16,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/16.png",
+            "name": "Autodromo Nazionale Monza"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 97
+            },
+            "time": "1:25.072"
+          }
+        },
+        {
+          "date": "2023-09-17T12:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1746,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 17,
+            "name": "Singapore Grand Prix",
+            "location": {
+              "city": "Singapour",
+              "country": "Singapore"
+            }
+          },
+          "circuit": {
+            "id": 17,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/17.png",
+            "name": "Marina Bay Street Circuit"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 20
+            },
+            "time": "1:35.867"
+          }
+        },
+        {
+          "date": "2023-09-24T05:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1751,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 19,
+            "name": "Japan Grand Prix",
+            "location": {
+              "city": "Suzuka",
+              "country": "Japan"
+            }
+          },
+          "circuit": {
+            "id": 19,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/19.png",
+            "name": "Suzuka International Racing Course"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 25
+            },
+            "time": "1:34.183"
+          }
+        },
+        {
+          "date": "2023-10-08T17:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1756,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 33,
+            "name": "Qatar Grand Prix",
+            "location": {
+              "city": "Losail",
+              "country": "Qatar"
+            }
+          },
+          "circuit": {
+            "id": 30,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/30.png",
+            "name": "Losail International Circuit"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 25
+            },
+            "time": "1:24.319"
+          }
+        },
+        {
+          "date": "2023-10-22T19:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1761,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 20,
+            "name": "USA Grand Prix",
+            "location": {
+              "city": "Elroy",
+              "country": "USA"
+            }
+          },
+          "circuit": {
+            "id": 20,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/20.png",
+            "name": "Circuit of The Americas"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 82
+            },
+            "time": "1:38.139"
+          }
+        },
+        {
+          "date": "2023-10-29T20:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1766,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 21,
+            "name": "Mexico Grand Prix",
+            "location": {
+              "city": "Mexico",
+              "country": "Mexico"
+            }
+          },
+          "circuit": {
+            "id": 21,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/21.png",
+            "name": "Autódromo Hermanos Rodríguez"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 20
+            },
+            "time": "1:21.334"
+          }
+        },
+        {
+          "date": "2023-11-05T17:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1771,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 22,
+            "name": "Brazil Grand Prix",
+            "location": {
+              "city": "São Paulo",
+              "country": "Brazil"
+            }
+          },
+          "circuit": {
+            "id": 22,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/22.png",
+            "name": "Autódromo José Carlos Pace"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": 49
+            },
+            "time": "1:12.486"
+          }
+        },
+        {
+          "date": "2023-11-18T19:00:00Z",
+          "distance": "308.9 Kms",
+          "id": 1776,
+          "season": 2023,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 35,
+            "name": "Las Vegas Grand Prix",
+            "location": {
+              "city": "Las Vegas",
+              "country": "USA"
+            }
+          },
+          "circuit": {
+            "id": 32,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/32.png",
+            "name": "Las Vegas"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          }
+        },
+        {
+          "date": "2023-11-26T13:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1781,
+          "season": 2023,
+          "status": "Scheduled",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "competition": {
+            "id": 23,
+            "name": "Abu Dhabi Grand Prix",
+            "location": {
+              "city": "Yas Marina, Abou Dabi ",
+              "country": "Abu Dhabi"
+            }
+          },
+          "circuit": {
+            "id": 23,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/23.png",
+            "name": "Yas Marina Circuit"
+          },
+          "fastest_lap": {
+            "driver": {
+              "id": null
+            },
+            "time": null
+          }
+        }
+      ],
+      "results": 23
+    }
+  }
+}

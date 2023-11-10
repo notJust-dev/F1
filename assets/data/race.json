@@ -1,0 +1,38 @@
+{
+  "data": {
+    "races": {
+      "errors": [],
+      "get": "races",
+      "parameters": {
+        "season": null,
+        "type": null
+      },
+      "response": [
+        {
+          "date": "2023-03-05T15:00:00Z",
+          "distance": "307.6 Kms",
+          "id": 1671,
+          "season": 2023,
+          "status": "Completed",
+          "timezone": "utc",
+          "type": "Race",
+          "weather": null,
+          "circuit": {
+            "id": 2,
+            "image": "https://media-4.api-sports.io/formula-1/circuits/2.png",
+            "name": "Bahrain International Circuit"
+          },
+          "competition": {
+            "id": 2,
+            "location": {
+              "city": "Sakhir",
+              "country": "Bahrain"
+            },
+            "name": "Bahrain Grand Prix"
+          }
+        }
+      ],
+      "results": 1
+    }
+  }
+}

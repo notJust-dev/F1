@@ -1,0 +1,55 @@
+type RaceRankings {
+  errors: [JSON]
+  get: String
+  parameters: RankParameters
+  response: [RankResponseEntry]
+  results: Int
+}
+
+type RankDriver {
+  abbr: String
+  id: Int
+  image: String
+  name: String
+  number: Int
+}
+
+type RankParameters {
+  race: Int
+}
+
+type RankRace {
+  id: Int
+}
+
+type RankResponseEntry {
+  driver: RankDriver
+  """
+  Field "gap" is defined as JSON since its value was always 'null'
+  """
+  gap: JSON
+  grid: Int
+  laps: Int
+  pits: Int
+  position: Int
+  race: RankRace
+  team: RankTeam
+  time: String
+}
+
+type RankTeam {
+  id: Int
+  logo: String
+  name: String
+}
+
+type Query {
+  raceRankings(race: String): RaceRankings
+    @rest(
+      endpoint: "https://v1.formula-1.api-sports.io/rankings/races"
+      headers: [
+        { name: "x-rapidapi-host", value: "v1.formula-1.api-sports.io" }
+        { name: "x-rapidapi-key", value: "3bf425b2941c21b8089297fb3df21e12" }
+      ]
+    )
+}
