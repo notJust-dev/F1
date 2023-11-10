@@ -23,7 +23,6 @@ export default function HomeScreen() {
         )}
       />
 
-      <StatusBar style="auto" />
     </View>
   );
 }
